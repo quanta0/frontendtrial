@@ -1,0 +1,429 @@
+body {
+    font-family: 'Karla', sans-serif;   
+}
+a {
+    color: white;
+    opacity: 1;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+a:hover {
+    color: #D1D2D4;
+    opacity: .80;
+}
+a:active {
+    color: #2ABBEF;
+}
+a:visited {
+    color: white;
+}
+.navbar-embibe {
+height: 72px;
+background: rgba(42,187,239,1);
+background: -moz-linear-gradient(top, rgba(42,187,239,1) 0%, rgba(42,187,239,0.2) 80%, rgba(255,255,255,0) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(42,187,239,1)), color-stop(80%, rgba(42,187,239,0.2)), color-stop(100%, rgba(255,255,255,0)));
+background: -webkit-linear-gradient(top, rgba(42,187,239,1) 0%, rgba(42,187,239,0.2) 80%, rgba(255,255,255,0) 100%);
+background: -o-linear-gradient(top, rgba(42,187,239,1) 0%, rgba(42,187,239,0.2) 80%, rgba(255,255,255,0) 100%);
+background: -ms-linear-gradient(top, rgba(42,187,239,1) 0%, rgba(42,187,239,0.2) 80%, rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(42,187,239,1) 0%, rgba(42,187,239,0.2) 80%, rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2abbef', endColorstr='#ffffff', GradientType=0 );
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+border: none;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+text-decoration: underline;
+background-color: none;
+}
+.icon-bar {
+    background-color: #fff; }
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;}
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+            color: #0081B0;
+            background-color: none; }}
+.navbar-right {
+    font-weight: bold;
+}
+.jumbotron {
+    text-align: center;
+    background: #fff url("img/background.svg") repeat fixed; min-height: 1000px;
+    background-size: cover;
+    margin: 0px;
+    animation: fadein 0s;
+    -moz-animation: fadein 0s; /* Firefox */
+    -webkit-animation: fadein 0s; /* Safari and Chrome */
+    -o-animation: fadein 0s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*fix background image setting against the div having the terminal window go beyond the background as in design*/
+#elogo {
+    height: 28px;
+    background: #fff;
+}
+.jumbotron h1 {
+    background: #fff;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.mac-window {
+    background: #494F57 url("img/boardstuff.svg") no-repeat right bottom; 
+  height: auto;
+  margin: auto;
+  border: 1px solid #acacac;
+  border-radius: 8px 8px 6px 6px;
+  box-shadow: 0px 0px 20px #acacac;
+  animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.console-header {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ebebeb, color-stop(1.0, #d5d5d5)));
+  background: -webkit-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: -moz-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: -ms-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: -o-linear-gradient(top, #ebebeb, #d5d5d5);
+  background: linear-gradient(top, #ebebeb, #d5d5d5);
+  color: #4d494d;
+  font-size: 11pt;
+  line-height: 20px;
+  text-align: center;
+  width: 100%;
+  height: 24px;
+  border-top: 1px solid #f3f1f3;
+  border-bottom: 1px solid #b1aeb1;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  cursor: default;
+}
+.mac-buttons {
+  padding-left: 6px;
+  padding-top: 6px;
+  float: left;
+  line-height: 0px;
+}
+.mac-buttons:hover a {
+  visibility: visible;
+}
+.close-mac {
+  background: #ff5c5c;
+  font-size: 9pt;
+  line-height: 11px;
+  margin-left: 2px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e33e41;
+  border-radius: 50%;
+  display: inline-block;
+}
+.close-mac:active {
+  background: #c14645;
+  border: 1px solid #b03537;
+}
+
+.minimize-mac {
+  background: #ffbd4c;
+  font-size: 9pt;
+  line-height: 11px;
+  margin-left: 4px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e09e3e;
+  border-radius: 50%;
+  display: inline-block;
+}
+.minimize-mac:active {
+  background: #c08e38;
+  border: 1px solid #af7c33;
+}
+.zoom-mac {
+  background: #00ca56;
+  font-size: 9pt;
+  line-height: 11px;
+  margin-left: 6px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #14ae46;
+  border-radius: 50%;
+  display: inline-block;
+}
+.zoom-mac:active {
+  background: #029740;
+  border: 1px solid #128435;
+}
+.mac-window h3 {
+    color: white;
+    padding-top: 12px;
+}
+.mac-window img {
+    margin-top: 20px;
+    width: 64px;
+}
+.mac-window .content p {
+    font-size: 18px;
+    margin: 12px;
+}
+.mac-window .btn {
+    margin-bottom: 48px;
+}
+.mac-window .btn:focus {
+    color: white;
+}
+.btn {
+    border-radius: 0px;
+}
+.btn:focus {
+    color: #000000;
+}
+.btn-story,.btn-how {
+    background: #f1f1f1;
+    border-style: solid;
+    border-color: #2ABBEF;
+    border-width: 2px;
+    color: #2ABBEF;
+    font-weight: bold;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+.btn-how {
+    background: #482864;
+}
+.btn-story:hover {
+    background: #2ABBEF;
+    color: white;
+}
+.btn-how:hover {
+    background: #2ABBEF;
+    color: white;
+}
+.success-stories {
+    background: #f1f1f1 no-repeat right top;
+    padding-top: 20px;
+}
+#quote-carousel {
+    padding: 0 10px 0px 10px;
+    margin-bottom: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 44px;
+    height: 44px;
+    margin: 18px;
+    cursor: pointer;
+    border: 2px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.7;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 96px;
+    height: 96px;
+    border-radius: 100px;
+    border: 3px solid #2ABBEF;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 300px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.car-text p {
+    font-family: 'Playfair Display', serif;
+    line-height: 160%;
+    letter-spacing: .5px;
+}
+.carousel-indicators {
+    position: relative;
+}
+.carousel .btn-story {
+    margin-top: 20px;
+}
+.panel-primary .panel-heading {
+  background: #482864;
+  border: none;
+    border-radius: 8px;
+}
+.panel-primary {
+  border: none;
+    border-radius: 8px;
+    background: #482864 url("img/e_data.png") no-repeat right bottom;
+    background-size: 35%;
+}
+.panel-body p {
+  color: white;
+}
+.panel-body h1 {
+  color: white;
+}
+.panel-body button {
+  margin: 20px 0px 20px 0px;
+}
+#caption {
+    color: #2ABBEF;
+}
+#square {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centered {
+    text-align: center;
+}
+.centered button {
+    background: #fff;
+}
+.centered h3 {
+    font-size: 20px;
+}
+.hideme {
+    opacity:0;
+}
